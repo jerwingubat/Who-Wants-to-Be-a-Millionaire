@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# Author: Aaron Nech
-# Description: Scrapes a sub directory of http://www.indiabix.com
-#  And extracts question and answers in json format.
- 
 import os, sys
 import argparse
 import requests
@@ -25,20 +20,18 @@ def get_answer(s):
 # Main declaration for console use
 if __name__ == '__main__':
 	# Domain to base requests off of
-	URL = 'www.indiabix.com'
+	URL = 'www.google.com'
  
 	# command line setup
-	parser = argparse.ArgumentParser(description='Scrapes a sub directory of http://www.indiabix.com for multiple choice questions')
+	parser = argparse.ArgumentParser(description='Scrapes a sub directory of https://www.google.com for multiple choice questions')
 	parser.add_argument('dir', help="The input website directory starting with '/'")
+
 	arguments = parser.parse_args()
  
-	# IndiaBix.com loads answers in with javascript, so you must render the page
-	# in a browser engine first. Luckily selenium can do just this.
 	browser = webdriver.Firefox()
-	browser.get("http://" + URL + arguments.dir)
+	browser.get("https://" + URL + arguments.dir)
 	soup = BeautifulSoup(browser.page_source)
  
-	# Find each question in the page
 	for question in soup.find_all('td', {'class' : 'bix-td-qtxt'}):
 		# Build result dictionary
 		result = {'question' : question.get_text()}
@@ -52,5 +45,5 @@ if __name__ == '__main__':
 		result['answer'] = get_answer(question.parent.parent.parent.parent.find_all('b', {'class' : 'jq-hdnakqb'})[0].get_text())
  
 		# Dump result json to std. out. and output a comma.
-		print json.dumps(result, sort_keys=True, indent=4, separators=(',', ': '))
-		print ','
+		print (json.dumps(result, sort_keys=True, indent=4, separators=(',', ': ')))
+		print (',')
