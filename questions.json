@@ -1,0 +1,794 @@
+{
+	"games": [
+		{
+			"questions": [
+				{
+					"question": "Which HTML tag is used to define a hyperlink?",
+					"content": [
+						"<a>",
+						"<link>",
+						"<href>",
+						"<nav>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What does CSS stand for?",
+					"content": [
+						"Cascading Style Sheets",
+						"Creative Style Sheets",
+						"Computer Style Sheets",
+						"Colorful Style Sheets"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which HTML attribute is used to define inline styles?",
+					"content": [
+						"class",
+						"id",
+						"style",
+						"font"
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which CSS property is used to change the background color?",
+					"content": [
+						"color",
+						"bgcolor",
+						"background-color",
+						"background"
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which of the following is the correct syntax for referring to an external script file in JavaScript?",
+					"content": [
+						"<script src='filename.js'>",
+						"<script href='filename.js'>",
+						"<script ref='filename.js'>",
+						"<script link='filename.js'>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "In JavaScript, what keyword is used to declare a variable?",
+					"content": [
+						"var",
+						"let",
+						"const",
+						"All of the above"
+					],
+					"correct": 3
+				},
+				{
+					"question": "Which JavaScript function is used to display a message in an alert box?",
+					"content": [
+						"msg()",
+						"alert()",
+						"prompt()",
+						"display()"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which of the following is used to define the structure of a web page?",
+					"content": [
+						"CSS",
+						"HTML",
+						"JavaScript",
+						"PHP"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which CSS property controls the text size?",
+					"content": [
+						"font-style",
+						"text-size",
+						"font-size",
+						"text-style"
+					],
+					"correct": 2
+				},
+				{
+					"question": "In JavaScript, which operator is used to assign a value to a variable?",
+					"content": [
+						"==",
+						"=",
+						"===",
+						"!="
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which HTML element is used for the largest heading?",
+					"content": [
+						"<h1>",
+						"<heading>",
+						"<h6>",
+						"<h5>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which HTML attribute specifies an alternate text for an image if the image cannot be displayed?",
+					"content": [
+						"src",
+						"alt",
+						"title",
+						"href"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which CSS property is used to control the spacing between lines of text?",
+					"content": [
+						"text-spacing",
+						"letter-spacing",
+						"line-height",
+						"spacing"
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which JavaScript event occurs when the user clicks on an HTML element?",
+					"content": [
+						"onmouseclick",
+						"onchange",
+						"onclick",
+						"onhover"
+					],
+					"correct": 2
+				},
+				{
+					"question": "In CSS, how do you make each word in a text start with a capital letter?",
+					"content": [
+						"text-transform: capitalize",
+						"text-style: uppercase",
+						"text-format: capitalize",
+						"font-transform: capitalize"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which JavaScript method is used to write content into an HTML document?",
+					"content": [
+						"document.write()",
+						"document.content()",
+						"document.innerHTML()",
+						"document.output()"
+					],
+					"correct": 0
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"question": "What does HTML stand for?",
+					"content": [
+						"Hypertext Markup Language",
+						"Hyperlink Markup Language",
+						"Home Tool Markup Language",
+						"Hypermedia Text Language"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which tag is used to define the largest heading in HTML?",
+					"content": [
+						"<h1>",
+						"<heading>",
+						"<h6>",
+						"<title>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which CSS property is used to change the background color of an element?",
+					"content": [
+						"bgcolor",
+						"background-color",
+						"color-background",
+						"color"
+					],
+					"correct": 1
+				},
+				{
+					"question": "What does CSS stand for?",
+					"content": [
+						"Cascading Style Sheets",
+						"Cascading Simple Sheets",
+						"Computer Style Sheets",
+						"Creative Style System"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which of the following is the correct syntax to create a hyperlink in HTML?",
+					"content": [
+						"<a href='www.example.com'>Link</a>",
+						"<link>www.example.com</link>",
+						"<a>www.example.com</a>",
+						"<href>www.example.com</href>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which HTML attribute is used to define inline styles?",
+					"content": [
+						"font",
+						"styles",
+						"class",
+						"style"
+					],
+					"correct": 3
+				},
+				{
+					"question": "How do you call a function in JavaScript?",
+					"content": [
+						"myFunction",
+						"call function myFunction()",
+						"call myFunction()",
+						"myFunction()"
+					],
+					"correct": 3
+				},
+				{
+					"question": "What is the purpose of the 'alt' attribute in an HTML image tag?",
+					"content": [
+						"To provide an alternate image source",
+						"To specify a text description of the image if it cannot be displayed",
+						"To provide an alternate file format for the image",
+						"To make the image responsive"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which PHP tag is used to write PHP code?",
+					"content": [
+						"<?php ?>",
+						"<script>",
+						"<php>",
+						"<code>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which of the following is used to declare a variable in PHP?",
+					"content": [
+						"var",
+						"$",
+						"declare",
+						"def"
+					],
+					"correct": 1
+				},
+				{
+					"question": "How can you add a comment in a JavaScript file?",
+					"content": [
+						"<!-- This is a comment -->",
+						"// This is a comment",
+						"/* This is a comment */",
+						"Both // and /* */ are correct"
+					],
+					"correct": 3
+				},
+				{
+					"question": "Which CSS property is used to control the text size?",
+					"content": [
+						"text-size",
+						"font-style",
+						"font-size",
+						"text-style"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What is the output of the following JavaScript code? `console.log(typeof 42)`",
+					"content": [
+						"int",
+						"number",
+						"float",
+						"integer"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which function is used to send output to the browser in PHP?",
+					"content": [
+						"echo",
+						"output",
+						"console.log",
+						"display"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What does the 'this' keyword refer to in JavaScript?",
+					"content": [
+						"The current HTML element",
+						"The current function",
+						"The object that called the function",
+						"None of the above"
+					],
+					"correct": 2
+				},
+				{
+					"question": "In PHP, which superglobal variable is used to collect form data?",
+					"content": [
+						"$GLOBALS",
+						"$_GET",
+						"$_POST",
+						"Both $_GET and $_POST"
+					],
+					"correct": 3
+				}
+			]
+		},		
+		{
+			"questions": [
+				{
+					"question": "In HTML, what tag is used to display the largest heading?",
+					"content": [
+						"<h1>",
+						"<h2>",
+						"<h3>",
+						"<h4>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which part of the HTML document contains the metadata and title?",
+					"content": [
+						"<head>",
+						"<body>",
+						"<footer>",
+						"<header>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which HTML attribute is used to specify the destination of a hyperlink?",
+					"content": [
+						"href",
+						"src",
+						"alt",
+						"link"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What does the \"C\" stand for in CSS?",
+					"content": [
+						"Cascading",
+						"Creative",
+						"Compact",
+						"Code"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which company developed JavaScript?",
+					"content": [
+						"Netscape",
+						"Microsoft",
+						"Apple",
+						"Google"
+					],
+					"correct": 0
+				},
+				{
+					"question": "A block-level HTML element typically starts on a new line. Which of the following is a block-level element?",
+					"content": [
+						"<div>",
+						"<span>",
+						"<a>",
+						"<img>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which CSS property is used to set the text color?",
+					"content": [
+						"color",
+						"font-color",
+						"text-color",
+						"background-color"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Who is considered the inventor of HTML?",
+					"content": [
+						"Tim Berners-Lee",
+						"Bill Gates",
+						"Steve Jobs",
+						"Mark Zuckerberg"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What is the correct syntax to link an external CSS file?",
+					"content": [
+						"<link rel='stylesheet' href='styles.css'>",
+						"<style src='styles.css'>",
+						"<link src='styles.css'>",
+						"<css rel='stylesheet'>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What is the purpose of the \"alt\" attribute in the <img> tag?",
+					"content": [
+						"To display text when the image cannot load",
+						"To link the image",
+						"To specify image size",
+						"To set the background color"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which JavaScript function is used to output a message in the browser console?",
+					"content": [
+						"console.log()",
+						"alert()",
+						"prompt()",
+						"print()"
+					],
+					"correct": 0
+				},
+				{
+					"question": "In CSS, which property controls the amount of space inside an element's border?",
+					"content": [
+						"padding",
+						"margin",
+						"border-spacing",
+						"gap"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What is the result of the following JavaScript expression: 2 + '2'?",
+					"content": [
+						"'22'",
+						"4",
+						"undefined",
+						"NaN"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which HTML element is used to embed JavaScript code directly within an HTML file?",
+					"content": [
+						"<script>",
+						"<javascript>",
+						"<js>",
+						"<link>"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which property in CSS is used to change the font size?",
+					"content": [
+						"font-size",
+						"text-size",
+						"font-weight",
+						"size"
+					],
+					"correct": 0
+				}
+			]
+		},		
+		{
+			"questions": [
+				{
+					"question": "What keyword is used to declare a variable in JavaScript?",
+					"content": [
+						"let",
+						"int",
+						"var",
+						"const"
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which function is used to display a message in a dialog box in JavaScript?",
+					"content": [
+						"console.log()",
+						"prompt()",
+						"alert()",
+						"confirm()"
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which company developed JavaScript?",
+					"content": [
+						"Netscape",
+						"Microsoft",
+						"Google",
+						"Apple"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which method can be used to remove the last element from an array in JavaScript?",
+					"content": [
+						"push()",
+						"pop()",
+						"shift()",
+						"slice()"
+					],
+					"correct": 1
+				},
+				{
+					"question": "What is the correct syntax to create a function in JavaScript?",
+					"content": [
+						"function myFunction()",
+						"def myFunction()",
+						"func myFunction()",
+						"function:myFunction()"
+					],
+					"correct": 0
+				},
+				{
+					"correct": 2,
+					"content": [
+						"Declare variables",
+						"Define object properties",
+						"Store multiple values in a single variable",
+						"Define new functions"
+					],
+					"question": "What is an array used for in JavaScript?"
+				},
+				{
+					"correct": 0,
+					"content": [
+						"NaN",
+						"undefined",
+						"null",
+						"Error"
+					],
+					"question": "What is the result of dividing a number by 0 in JavaScript?"
+				},
+				{
+					"correct": 3,
+					"content": [
+						"Length",
+						"Size",
+						"Capacity",
+						"Infinity"
+					],
+					"question": "What value is returned when the array index is out of bounds in JavaScript?"
+				},
+				{
+					"correct": 2,
+					"content": [
+						"isInteger()",
+						"isFinite()",
+						"parseInt()",
+						"parseFloat()"
+					],
+					"question": "Which JavaScript function is used to convert a string to an integer?"
+				},
+				{
+					"correct": 0,
+					"content": [
+						"Global scope",
+						"Block scope",
+						"Function scope",
+						"None of the above"
+					],
+					"question": "Where is a variable declared using 'var' available in JavaScript?"
+				},
+				{
+					"correct": 2,
+					"content": [
+						"A global function",
+						"A predefined function",
+						"A function defined inside another function",
+						"A loop structure"
+					],
+					"question": "What is a closure in JavaScript?"
+				},
+				{
+					"correct": 1,
+					"content": [
+						"undefined",
+						"null",
+						"false",
+						"NaN"
+					],
+					"question": "What is the default value of an uninitialized variable in JavaScript?"
+				},
+				{
+					"correct": 0,
+					"content": [
+						"JSON",
+						"Java",
+						"XML",
+						"SQL"
+					],
+					"question": "Which format is commonly used for data exchange in JavaScript?"
+				},
+				{
+					"correct": 0,
+					"content": [
+						"To validate user input",
+						"To style the webpage",
+						"To store data",
+						"To manage the layout"
+					],
+					"question": "What is a common use of JavaScript on the client-side?"
+				},
+				{
+					"correct": 1,
+					"content": [
+						"document.print()",
+						"document.write()",
+						"console.print()",
+						"console.write()"
+					],
+					"question": "Which method can be used to write directly to the HTML output?"
+				}
+			]
+		},
+		{
+			"questions": [
+				{
+					"question": "Which keyword is used to declare a variable in JavaScript?",
+					"content": [
+						"var",
+						"set",
+						"int",
+						"declare"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which method is used to print output to the JavaScript console?",
+					"content": [
+						"document.write()",
+						"console.log()",
+						"alert()",
+						"print()"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which data type is NOT a primitive type in JavaScript?",
+					"content": [
+						"Boolean",
+						"Object",
+						"Number",
+						"String"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which of the following is the correct way to define a function in JavaScript?",
+					"content": [
+						"function myFunction[]",
+						"function = myFunction()",
+						"function myFunction()",
+						"func myFunction()"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What does DOM stand for in JavaScript?",
+					"content": [
+						"Data Object Model",
+						"Document Overload Module",
+						"Document Object Model",
+						"Dynamic Object Model"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What will the following expression return: Boolean(0)?",
+					"content": [
+						"true",
+						"false",
+						"0",
+						"undefined"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which of these is a falsy value in JavaScript?",
+					"content": [
+						"42",
+						"'false'",
+						"[]",
+						"null"
+					],
+					"correct": 3
+				},
+				{
+					"question": "Which of the following array methods returns a new array with the elements that meet a condition?",
+					"content": [
+						"map()",
+						"filter()",
+						"forEach()",
+						"reduce()"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which keyword is used to define a constant variable in JavaScript?",
+					"content": [
+						"let",
+						"var",
+						"static",
+						"const"
+					],
+					"correct": 3
+				},
+				{
+					"question": "Which of the following is the correct syntax for an arrow function in JavaScript?",
+					"content": [
+						"let myFunc = () => {}",
+						"let myFunc = -> {}",
+						"let myFunc := function() {}",
+						"let myFunc() -> {}"
+					],
+					"correct": 0
+				},
+				{
+					"question": "What is the purpose of JSON.stringify() in JavaScript?",
+					"content": [
+						"Converts a string to a JSON object",
+						"Parses a string as JSON",
+						"Converts a JavaScript object to a JSON string",
+						"Sends a string as JSON data to a server"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What will the following code output to the console: console.log(2 + '2')?",
+					"content": [
+						"4",
+						"22",
+						"'22'",
+						"undefined"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Which loop is designed to iterate over object properties in JavaScript?",
+					"content": [
+						"for loop",
+						"while loop",
+						"forEach loop",
+						"for...in loop"
+					],
+					"correct": 3
+				},
+				{
+					"question": "Which of the following is NOT a method to make an HTTP request in JavaScript?",
+					"content": [
+						"fetch()",
+						"XMLHttpRequest",
+						"ajax()",
+						"axios()"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What is a closure in JavaScript?",
+					"content": [
+						"A function inside a loop",
+						"A function with multiple arguments",
+						"A function having access to the parent scope, even after the parent function has closed",
+						"A function that runs only once"
+					],
+					"correct": 2
+				}
+			]
+		}
+	]
+}
