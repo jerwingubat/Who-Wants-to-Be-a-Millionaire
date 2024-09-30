@@ -11,7 +11,7 @@
 */
 Number.prototype.money = function(fixed, decimalDelim, breakDelim){
 	var n = this, 
-	fixed = isNaN(fixed = Math.abs(fixed)) ? 2 : fixed, 
+	fixed = isNaN(fixed = Math.abs(fixed)) ? 0 : fixed, 
 	decimalDelim = decimalDelim == undefined ? "." : decimalDelim, 
 	breakDelim = breakDelim == undefined ? "," : breakDelim, 
 	negative = n < 0 ? "-" : "", 
@@ -159,7 +159,7 @@ var MillionaireModel = function(data) {
 
  	// Gets the money formatted string of the current won amount of money.
  	self.formatMoney = function() {
-	    return self.money().money(2, '.', ',');
+	    return self.money().money(0, '.', ',');
 	}
 };
 
