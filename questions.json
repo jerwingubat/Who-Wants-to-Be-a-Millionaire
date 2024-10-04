@@ -3,162 +3,152 @@
 		{
 			"questions": [
 				{
-					"question": "Which HTML tag is used to define a hyperlink?",
+					"question": "What does the `<!DOCTYPE html>` declaration do?",
 					"content": [
-						"<a>",
-						"<link>",
-						"<href>",
-						"<nav>"
+						"It specifies the HTML version being used.",
+						"It defines the character set for the document.",
+						"It links external CSS stylesheets.",
+						"It indicates the end of the HTML document."
 					],
 					"correct": 0
 				},
 				{
-					"question": "What does CSS stand for?",
+					"question": "Which of the following pseudo-classes selects elements when a user hovers over them?",
 					"content": [
-						"Cascading Style Sheets",
-						"Creative Style Sheets",
-						"Computer Style Sheets",
-						"Colorful Style Sheets"
+						":focus",
+						":hover",
+						":active",
+						":visited"
+					],
+					"correct": 1
+				},
+				{
+					"question": "What is the purpose of the `z-index` property in CSS?",
+					"content": [
+						"To control the order of overlapping elements.",
+						"To set the transparency of an element.",
+						"To define the font size.",
+						"To create responsive designs."
 					],
 					"correct": 0
 				},
 				{
-					"question": "Which HTML attribute is used to define inline styles?",
+					"question": "What will the following JavaScript code output: `console.log(typeof null);`?",
 					"content": [
-						"class",
-						"id",
-						"style",
-						"font"
+						"object",
+						"null",
+						"undefined",
+						"error"
+					],
+					"correct": 0
+				},
+				{
+					"question": "In CSS Grid, which property is used to define the size of grid items?",
+					"content": [
+						"grid-template-columns",
+						"grid-area",
+						"grid-column",
+						"grid-size"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Which method can be used to convert a JSON string into a JavaScript object?",
+					"content": [
+						"JSON.stringify()",
+						"JSON.parse()",
+						"JSON.objectify()",
+						"JSON.decode()"
+					],
+					"correct": 1
+				},
+				{
+					"question": "What is the default value of the `position` property in CSS?",
+					"content": [
+						"relative",
+						"absolute",
+						"static",
+						"fixed"
 					],
 					"correct": 2
 				},
 				{
-					"question": "Which CSS property is used to change the background color?",
+					"question": "How can you select an element with the ID 'header' in CSS?",
 					"content": [
-						"color",
-						"bgcolor",
-						"background-color",
-						"background"
+						".header",
+						"#header",
+						"header",
+						"@header"
+					],
+					"correct": 1
+				},
+				{
+					"question": "What is the purpose of the `async` attribute in a `<script>` tag?",
+					"content": [
+						"It loads the script after the HTML document is fully parsed.",
+						"It executes the script in a separate thread.",
+						"It loads the script asynchronously with the HTML parsing.",
+						"It makes the script run only on specific events."
 					],
 					"correct": 2
 				},
 				{
-					"question": "Which of the following is the correct syntax for referring to an external script file in JavaScript?",
+					"question": "Which HTML element is used to define a footer for a document or section?",
 					"content": [
-						"<script src='filename.js'>",
-						"<script href='filename.js'>",
-						"<script ref='filename.js'>",
-						"<script link='filename.js'>"
+						"<footer>",
+						"<bottom>",
+						"<section>",
+						"<aside>"
 					],
 					"correct": 0
 				},
 				{
-					"question": "In JavaScript, what keyword is used to declare a variable?",
+					"question": "In CSS, which property is used to create space between the element's border and its content?",
 					"content": [
-						"var",
-						"let",
-						"const",
-						"All of the above"
-					],
-					"correct": 3
-				},
-				{
-					"question": "Which JavaScript function is used to display a message in an alert box?",
-					"content": [
-						"msg()",
-						"alert()",
-						"prompt()",
-						"display()"
-					],
-					"correct": 1
-				},
-				{
-					"question": "Which of the following is used to define the structure of a web page?",
-					"content": [
-						"CSS",
-						"HTML",
-						"JavaScript",
-						"PHP"
-					],
-					"correct": 1
-				},
-				{
-					"question": "Which CSS property controls the text size?",
-					"content": [
-						"font-style",
-						"text-size",
-						"font-size",
-						"text-style"
-					],
-					"correct": 2
-				},
-				{
-					"question": "In JavaScript, which operator is used to assign a value to a variable?",
-					"content": [
-						"==",
-						"=",
-						"===",
-						"!="
-					],
-					"correct": 1
-				},
-				{
-					"question": "Which HTML element is used for the largest heading?",
-					"content": [
-						"<h1>",
-						"<heading>",
-						"<h6>",
-						"<h5>"
-					],
-					"correct": 0
-				},
-				{
-					"question": "Which HTML attribute specifies an alternate text for an image if the image cannot be displayed?",
-					"content": [
-						"src",
-						"alt",
-						"title",
-						"href"
-					],
-					"correct": 1
-				},
-				{
-					"question": "Which CSS property is used to control the spacing between lines of text?",
-					"content": [
-						"text-spacing",
-						"letter-spacing",
-						"line-height",
+						"margin",
+						"padding",
+						"border-spacing",
 						"spacing"
 					],
-					"correct": 2
+					"correct": 1
 				},
 				{
-					"question": "Which JavaScript event occurs when the user clicks on an HTML element?",
+					"question": "Which of the following methods can be used to remove the last element from an array in JavaScript?",
 					"content": [
-						"onmouseclick",
-						"onchange",
-						"onclick",
-						"onhover"
-					],
-					"correct": 2
-				},
-				{
-					"question": "In CSS, how do you make each word in a text start with a capital letter?",
-					"content": [
-						"text-transform: capitalize",
-						"text-style: uppercase",
-						"text-format: capitalize",
-						"font-transform: capitalize"
+						"pop()",
+						"shift()",
+						"delete()",
+						"splice()"
 					],
 					"correct": 0
 				},
 				{
-					"question": "Which JavaScript method is used to write content into an HTML document?",
+					"question": "What does the CSS `flex` property do?",
 					"content": [
-						"document.write()",
-						"document.content()",
-						"document.innerHTML()",
-						"document.output()"
+						"It allows a container to expand to fill available space.",
+						"It sets the default size of an item before the space is distributed.",
+						"It specifies how a flex item will grow or shrink to fit the space.",
+						"It defines the direction of a flex container."
+					],
+					"correct": 2
+				},
+				{
+					"question": "Which attribute is used to define inline JavaScript within an HTML document?",
+					"content": [
+						"onclick",
+						"onload",
+						"script",
+						"javascript"
+					],
+					"correct": 2
+				},
+				{
+					"question": "What is the correct way to write a comment in JavaScript?",
+					"content": [
+						"// This is a comment",
+						"<!-- This is a comment -->",
+						"/* This is a comment */",
+						"** This is a comment **"
 					],
 					"correct": 0
 				}
